@@ -1,10 +1,10 @@
-import { Button } from "@mui/material";
+import { Button, Container } from "@mui/material";
 
 const HomePage = () => {
   return (
-    <div>
-      <Button>Outlined</Button>
-    </div>
+    <Container className="min-h-screen">
+      <h1>Homepage</h1>
+    </Container>
   );
 };
 
